@@ -11,6 +11,9 @@ const Links = () => {
       <LinkDiv>
         <Link to="/upload">게시글 등록</Link>
       </LinkDiv>
+      <LinkDiv>
+        <Link to="/get">과제 요구사항</Link>
+      </LinkDiv>
     </LinkBox>
   );
 };

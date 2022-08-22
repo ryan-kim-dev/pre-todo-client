@@ -5,6 +5,7 @@ import UploadForm from './pages/UploadForm';
 import Header from './components/Header';
 import { Routes, Route } from 'react-router-dom';
 import Links from './components/Links';
+import Require from './pages/Require';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/upload" element={<UploadForm />} />
+        <Route path="/get" element={<Require />} />
       </Routes>
     </div>
   );

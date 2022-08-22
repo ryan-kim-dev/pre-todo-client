@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
 });
 
+app.get('/get', (req, res) => {
+  res.send('To-do Application!');
+});
+
 app.post('/upload/post', async (req, res) => {
   res.send('success');
 });
